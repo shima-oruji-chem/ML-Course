@@ -2,7 +2,8 @@
 documentclass: article
 classoption:
 title: "CSCE 585: Machine Learning Systems:
-Project Proposal: This is a test title"
+Project Proposal: Implementation and Evaluation of Different Classification Algorithms to Predict Diabetes"
+author: Shima Oruji and Zach Thomas
 institute: UofSC
 date: \today
 colorlinks: true
@@ -16,25 +17,15 @@ urlcolor: cyan
 \clearpage
 
 # Project Repository
-Please put the URL of your project repository on GitHub here. I expect to see all students in the team actively contributing to the repository throughout the semester.
+This is the [link](https://github.com/shima-oruji-chem/ML-Course) to the github repository that we created for the course project.
 
 # Introduction
-This section introduces your problem and the overall plan for approaching the problem you plan to address in your project.
+*Diabetes Mellitus* is among critical diseases and lots of people are suffering from it in recent years. According to the recent studies, age, obesity, lack of exercise, hereditary diabetes, living style, bad diet, high blood pressure, etc. can cause Diabetes Mellitus. People having diabetes have high risk of diseases such as heart disease, kidney disease, stroke, eye problem, and nerve damage. With the recent advancements in the field of machine learning (ML), several researchers have tried to apply ML models to perform Diabetes prediction in patients based on various factors. However, there is no rigorous and comprehensive study on the evaluation of different ML models to determine the best practices in this specific problem.
 
-# Problem Statement
-Describe your problem, specifying the dataset you plan to use, expected results, and evaluation. Please list any specific dataset or benchmark you plan to use. For example, if you are collecting new data, how will you do it?
+In this project, we aim at implementing and evaluating different classification methods (e.g., decision tree, random forest, support vector machine, and neural network) on the given dataset and determine which methods perform better and under which conditions. We will use the Pima Indians onset of diabetes dataset. This is a standard machine learning dataset from the UCI Machine Learning repository. It describes patient medical record data for Pima Indians and whether they had an onset of diabetes within five years.
 
-# Technical Approach
-What method or algorithm are you proposing? If there are existing implementations, will you use them, and how? How do you plan to improve or modify such implementations? You may not have an exact answer at this point, but you should have a general sense of how you will approach the problem you are working on.
-
-# Evaluation
-How will you evaluate your results? (i) Qualitatively: what kind of results do you expect (e.g., plots or figures)? (ii) Quantitatively: what analysis will you use to evaluate and/or compare your results (e.g., performance metrics or statistical tests)?
+# Problem Statement, Our Approach, and Evaluation
+This is a binary classification problem (onset of diabetes as 1 or not as 0). As mentioned in the previous section, we will use the Pima Indians onset of diabetes dataset, which is a standard benchmark dataset for these studies. For the evaluation, we will use the accuracy, precision, and recall as general indicators of the performance of different classifiers. We are planning to tune each classifier with the best hyperparameters using the ROC curve and use it for comparison with other classifiers. We are not sure at this point, but we are speculating that neural network based model might reveal the best results.
 
 # Related Work
-Discuss published work related to your project. How is your approach similar or different from others? You may not be aware of all related work at this point, but it is essential to search whether there has been any prior work related to the idea you envision for your project. I highly recommend updating this section throughout your project as soon as you find any related work.
-
-# References
-What reading will you examine to provide context and background? Please make sure to cite all relevant publications, blog posts, and any resources that are related to your project.
-
-# Submission
-Please use [GitHub tags](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags) for indicating your submissions. So, one of your team members submits a `PDF file` that includes, a `title` for your project, a `list of members` and their `GitHub accounts`, a link to your `repository`, and a specific `GitHub tag` that I should use for locating your submission on GitHub.
+This problem has been extensively studied in the literature. However, none of the existing works has done a comprehensive evaluation on different classifiers. This is a short list of references: [reference \#1](https://www.hindawi.com/journals/jhe/2022/1684017/), [reference \#2](https://www.sciencedirect.com/science/article/pii/S1877050920300557). We will write a comprehensive related work in our final report.

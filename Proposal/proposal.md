@@ -29,3 +29,9 @@ This is a binary classification problem (onset of diabetes as 1 or not as 0). As
 
 # Related Work
 This problem has been extensively studied in the literature. However, none of the existing works has done a comprehensive evaluation on different classifiers. This is a short list of references: [reference \#1](https://www.hindawi.com/journals/jhe/2022/1684017/), [reference \#2](https://www.sciencedirect.com/science/article/pii/S1877050920300557). We will write a comprehensive related work in our final report.
+
+# Revisions According to the Feedback
+Based on the discussion we had with Professor Jamshidi and to address his comments, we add the following two items to the scope of the project:
+
+* In addition to the current dataset, we will try to find additional datasets and evaluate the performance of the trained models with them. This can indicate the performance dependency of the studied models on the new datasets.
+* We will design a website which can be used by users to directly interact with the trained models for seeing the diabetes prediction of a given input. The website will use an API to do the predictions. We will release the API publicly so that interested folks can connect their applications (e.g., mobile apps) to it or interact with the models programatically.
